@@ -7,7 +7,7 @@ import bgImg from './assets/background-img.jpg';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/mern-crud-app">
       <div
         className="min-h-screen bg-cover bg-center flex items-center justify-center"
         style={{ backgroundImage: `url(${bgImg})` }}
