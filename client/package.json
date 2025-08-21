@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && echo > dist/.nojekyll",
     "preview": "vite preview",
     "lint": "eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-"homepage": "https://saeedasaad.github.io/mern-crud-app/",
+  "homepage": "https://saeedasaad.github.io/mern-crud-app/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.3",
