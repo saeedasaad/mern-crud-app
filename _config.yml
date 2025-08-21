@@ -1,0 +1,13 @@
+title: CURD MERN App
+description: Sample app deployed with GitHub Pages
+theme: jekyll-theme-primer
+
+exclude:
+  - "node_modules"
+  - "server/node_modules"
+  - "client/node_modules"
+  - "package.json"
+  - "package-lock.json"
+  - "yarn.lock"
+  - "README.md"
+  - "server/"
